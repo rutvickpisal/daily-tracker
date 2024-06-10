@@ -1,0 +1,93 @@
+/* Progress.css */
+
+.progress-container {
+  padding: 20px;
+  background: linear-gradient(
+    to bottom,
+    #1e90ff,
+    #32cd32
+  ); /* Gradient background */
+  min-height: 100vh; /* Ensure it covers the full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.habit-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Added display flex */
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: center; /* Center items horizontally */
+}
+
+.habit-item {
+  margin: 2px;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  background-color: #fff; /* White background for contrast */
+  border-radius: 5px;
+  width: 300px; /* Fixed width for consistent item size */
+  max-width: 100%; /* Ensure items don't exceed container width */
+}
+
+.day-category {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Vibrant colors for different day categories */
+.tesla-day {
+  background: linear-gradient(
+    to right,
+    #ffd700,
+    #ff8c00
+  ); /* Gradient from gold to dark orange */
+  color: #fff;
+}
+
+.champion-day {
+  background: linear-gradient(
+    to right,
+    #32cd32,
+    #228b22
+  ); /* Gradient from lime green to forest green */
+  color: #fff;
+}
+
+.average-joe-day {
+  background: linear-gradient(
+    to right,
+    #1e90ff,
+    #4682b4
+  ); /* Gradient from dodger blue to steel blue */
+  color: #fff;
+}
+
+.loser-day {
+  background: linear-gradient(
+    to right,
+    #ff4500,
+    #ff6347
+  ); /* Gradient from orange red to tomato */
+  color: #fff;
+}
+
+.pitiful-day {
+  background: linear-gradient(
+    to right,
+    #8b0000,
+    #b22222
+  ); /* Gradient from dark red to firebrick */
+  color: #fff;
+}
+
+.habit-details {
+  margin-top: 5px;
+}
+
+.habit-item {
+  background-color: #ffffff;
+}
